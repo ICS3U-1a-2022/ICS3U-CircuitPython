@@ -8,7 +8,7 @@ import ugame
 import stage
 
 def game_scene():
-    # his function is the main game game_scene
+    # this function is the main game game_scene
 
     print("\n\n\n") # 3 blank lines
     print("Hello, World!")
