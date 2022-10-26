@@ -14,7 +14,7 @@ def game_scene():
     # image banks for CircuitPython
     image_bank_background = stage.Bank.from_bmp16("space_aliens_background.bmp")
 
-    # set the background to image 0 in the image bank 
+    # set the background to image 0 in the image bank
     #   and the size (10x8 tiles of size 16x16)
     background = stage.Grid(image_bank_background, 10, 8)
 
@@ -28,10 +28,11 @@ def game_scene():
     # render all sprites
     #   most likely you will only render the background once per game scene
     game.render_block()
-    
+
     # repeat forever, game loop
     while True:
         pass # just a placeholder for now
+
 
 if __name__ == "__main__":
     game_scene()
