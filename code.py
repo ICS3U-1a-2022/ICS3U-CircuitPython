@@ -36,9 +36,9 @@ def game_scene():
     # repeat forever, game loop
     while True:
         # get user input
-        
+
         # update game logic
-        
+
         # redraw Sprite
         game.render_sprites([ship])
         game.tick() # wait until refresh rate finishes
